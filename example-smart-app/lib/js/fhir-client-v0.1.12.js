@@ -17164,6 +17164,7 @@ function isFakeOAuthToken(){
 
 BBClient.ready = function(input, callback, errback){
 
+	debugger;
   var args = readyArgs.apply(this, arguments);
 
   // decide between token flow (implicit grant) and code flow (authorization code grant)
